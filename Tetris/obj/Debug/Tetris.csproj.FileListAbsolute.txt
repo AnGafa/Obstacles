@@ -1,0 +1,13 @@
+P:\Resources\Lecturers\Ranier Bonnici\SWD4.2C\Tetris\Tetris\bin\Debug\Tetris.exe.config
+P:\Resources\Lecturers\Ranier Bonnici\SWD4.2C\Tetris\Tetris\bin\Debug\Tetris.exe
+P:\Resources\Lecturers\Ranier Bonnici\SWD4.2C\Tetris\Tetris\bin\Debug\Tetris.pdb
+P:\Resources\Lecturers\Ranier Bonnici\SWD4.2C\Tetris\Tetris\obj\Debug\Tetris.csprojAssemblyReference.cache
+P:\Resources\Lecturers\Ranier Bonnici\SWD4.2C\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+P:\Resources\Lecturers\Ranier Bonnici\SWD4.2C\Tetris\Tetris\obj\Debug\Tetris.exe
+P:\Resources\Lecturers\Ranier Bonnici\SWD4.2C\Tetris\Tetris\obj\Debug\Tetris.pdb
+C:\Users\andre_000\Desktop\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\andre_000\Desktop\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\andre_000\Desktop\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\andre_000\Desktop\Tetris\Tetris\obj\Debug\Tetris.csprojAssemblyReference.cache
+C:\Users\andre_000\Desktop\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\andre_000\Desktop\Tetris\Tetris\obj\Debug\Tetris.pdb
