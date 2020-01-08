@@ -4,8 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tetris
+namespace OOPGame
 {
+
+    /// <summary>
+    /// A barrier class
+    /// </summary>
     class Barrier
     {
         protected int x;
@@ -13,35 +17,57 @@ namespace Tetris
         protected ConsoleColor colour;
         protected Board b;
 
-        private bool isMovingDown;
+        private bool isMovingDefault;
 
-        private bool isMovingRight;
 
-        public Barrier(Board board, int initX, int initY)
+        /// <summary>
+        /// the movement mode of the obstacle
+        /// if true movement is left <-> right
+        /// if false movement is up <-> down
+        /// </summary>
+        private bool movementMode;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="board"></param>
+        /// <param name="initX"></param>
+        /// <param name="initY"></param>
+        public Barrier(Board board, int initX, int initY, bool moveMode, bool movement)
         {
             x = initX;
             y = initY;
             colour = ConsoleColor.Green;
             b = board;
 
-            isMovingDown = true;
+            this.isMovingDefault = movement;
 
+            this.movementMode = moveMode;
         }
 
-        public void MoveHorizontal()
+
+        public void Move()
+        {
+            if (this.movementMode == true)
+                MoveHorizontal();
+            else
+                MoveVertical();
+        }
+
+        private void MoveHorizontal()
         {
             int z = 0;
             if (x > 70)
                 z = 0;
             
             if (x >= b.SizeX)
-                this.isMovingRight = false;
+                this.isMovingDefault = false;
             else if (x <= 0)
-                this.isMovingRight = true;
+                this.isMovingDefault = true;
 
             Erase();
 
-            if (!isMovingRight)
+            if (!isMovingDefault)
                 x--;
             else
                 x++;
@@ -49,16 +75,16 @@ namespace Tetris
             Draw();
         }
 
-        public void MoveVertical()
+        private void MoveVertical()
         {
             if (b.SizeY <= y)
-                this.isMovingDown = false;
+                this.isMovingDefault = false;
             else if (0 >= y)
-                this.isMovingDown = true;
+                this.isMovingDefault = true;
     
             Erase();
 
-            if (isMovingDown)
+            if (isMovingDefault)
                 y++;
             else
                 y--;

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Tetris")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("OOPGame")]
+[assembly: AssemblyDescription("OOP Game by Andrea Gafa")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Tetris")]
+[assembly: AssemblyCompany("Andrea Gafa")]
+[assembly: AssemblyProduct("OOPGame")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

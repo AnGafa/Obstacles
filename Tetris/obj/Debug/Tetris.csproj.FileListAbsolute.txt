@@ -11,9 +11,9 @@ C:\Users\andre_000\Desktop\Tetris\Tetris\bin\Debug\Tetris.pdb
 C:\Users\andre_000\Desktop\Tetris\Tetris\obj\Debug\Tetris.csprojAssemblyReference.cache
 C:\Users\andre_000\Desktop\Tetris\Tetris\obj\Debug\Tetris.exe
 C:\Users\andre_000\Desktop\Tetris\Tetris\obj\Debug\Tetris.pdb
-C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\Tetris.exe.config
-C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\Tetris.exe
-C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\Tetris.pdb
 C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\Tetris.csprojAssemblyReference.cache
-C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\Tetris.exe
-C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\Tetris.pdb
+C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.exe.config
+C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.exe
+C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.pdb
+C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\OOPGame.exe
+C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\OOPGame.pdb
