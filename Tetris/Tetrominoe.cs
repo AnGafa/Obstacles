@@ -25,15 +25,15 @@ namespace Tetris
             b = board;
         }
 
-        public string Drop()
-        {
-            Erase();
-            string canMakeMove = CanMakeMove(orientation, x, y + 1);
-            if (canMakeMove == string.Empty)
-                y++;
-            Draw();
-            return canMakeMove;
-        }
+        //public string Drop()
+        //{
+        //    Erase();
+        //    string canMakeMove = CanMakeMove(orientation, x, y + 1);
+        //    if (canMakeMove == string.Empty)
+        //        y++;
+        //    Draw();
+        //    return canMakeMove;
+        //}
 
         private void Draw()
         {

@@ -15,6 +15,8 @@ namespace Tetris
 
         private bool isMovingDown;
 
+        private bool isMovingRight;
+
         public Barrier(Board board, int initX, int initY)
         {
             x = initX;
@@ -26,7 +28,28 @@ namespace Tetris
 
         }
 
-        public void Move()
+        public void MoveHorizontal()
+        {
+            int z = 0;
+            if (x > 70)
+                z = 0;
+            
+            if (x >= b.SizeX)
+                this.isMovingRight = false;
+            else if (x <= 0)
+                this.isMovingRight = true;
+
+            Erase();
+
+            if (!isMovingRight)
+                x--;
+            else
+                x++;
+
+            Draw();
+        }
+
+        public void MoveVertical()
         {
             if (b.SizeY <= y)
                 this.isMovingDown = false;

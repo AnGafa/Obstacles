@@ -17,11 +17,14 @@ namespace Tetris
             DateTime dt2 = DateTime.Now;
             Board b = new Board(X_SIZE, Y_SIZE);
 
-            Barrier o = new Barrier(b, 10, 5);
-            Barrier o2 = new Barrier(b, 60, 15);
+            Barrier v1 = new Barrier(b, 10, 5);
+            Barrier v2 = new Barrier(b, 60, 15);
+
+            Barrier h1 = new Barrier(b, 5, 15);
+            Barrier h2 = new Barrier(b, 20, 5);
 
             Console.WindowHeight = Y_SIZE+1;
-            Console.WindowWidth = X_SIZE;
+            Console.WindowWidth = X_SIZE+5;
             Console.CursorVisible = false;
             Console.BufferWidth = Console.WindowWidth;
             Console.BufferHeight = Console.WindowHeight;
@@ -30,8 +33,11 @@ namespace Tetris
                 dt2 = DateTime.Now;
                 if (dt2.Subtract(dt1).TotalMilliseconds > 50)
                 {
-                    o.Move();
-                    o2.Move();
+                    v1.MoveVertical();
+                    v2.MoveVertical();
+
+                    h1.MoveHorizontal();
+                    h2.MoveHorizontal();
 
                     dt1 = DateTime.Now;
                 }
