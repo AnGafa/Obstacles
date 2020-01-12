@@ -7,13 +7,8 @@ using System.Threading.Tasks;
 namespace OOPGame
 {
 
-    class Player
+    class Player : GameItem
     {
-
-        protected int x;
-        protected int y;
-        protected ConsoleColor colour;
-        protected Board b;
 
         public Player(Board board, int initX, int initY)
         {
@@ -23,41 +18,34 @@ namespace OOPGame
             b = board;
         }
 
+        private void MovePlayer(){
+        
+            ConsoleKey keypressed;
+
+            keypressed = Console.ReadKey().Key;
+
+            if(keypressed == ConsoleKey.UpArrow & this.y > 0)
+                    this.y--;
+
+            if(keypressed == ConsoleKey.DownArrow & this.y < b.SizeY)
+                    this.y++;
+            
+            if(keypressed == ConsoleKey.RightArrow & this.x < b.SizeX)
+                    this.x++;
+            if(keypressed == ConsoleKey.LeftArrow & this.x > 0)
+                    this.x--;
+        }
+        
         public void Move()
         {
             Erase();
 
+            if(Console.KeyAvailable)
+            {
+                MovePlayer();
+            }
+
             Draw();
         }
-
-        private void Draw()
-        {
-            Paint(false);
-        }
-
-        private void Erase()
-        {
-            Paint(true);
-        }
-
-
-
-        public virtual void Paint(bool erase)
-        {
-            // if we want to erase set the color to black, otherwise set to green
-            ConsoleColor paintColour = (erase) ? ConsoleColor.Black : colour;
-
-            // get obstacle x and y coordinates
-            int paintX = x;
-            int paintY = y;
-
-            // set the color to paint
-            Console.ForegroundColor = paintColour;
-            // set location to paint
-            Console.SetCursorPosition(paintX, paintY);
-            // now paint
-            Console.Write("█");
-        }
-
     }
 }

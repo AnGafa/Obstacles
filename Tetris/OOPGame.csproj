@@ -46,7 +46,9 @@
     <Compile Include="Board.cs" />
     <Compile Include="Barrier.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="GameItem.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="Powerup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

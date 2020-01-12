@@ -3,3 +3,10 @@ C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\OOPGame.pdb
 C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.exe.config
 C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.exe
 C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.pdb
+C:\Users\andre_000\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\OOPGame.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\OOPGame.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\OOPGame.exe
+C:\Users\andre\OneDrive\MCAST\Obstacles\Tetris\obj\Debug\OOPGame.pdb
+C:\Users\andre\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.exe.config
+C:\Users\andre\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.exe
+C:\Users\andre\OneDrive\MCAST\Obstacles\Tetris\bin\Debug\OOPGame.pdb
